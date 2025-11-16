@@ -50,7 +50,7 @@ curl -X POST http://localhost:8080/api/saveNewUrls \
       "https://google.com",
       "https://github.com"
     ]
-  }
+  }'
 ```
 ## 2. Получение PDF-отчёта
 ```bash
