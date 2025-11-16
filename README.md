@@ -58,3 +58,12 @@ curl http://localhost:8080/api/loadUnfinishedWork --output result.pdf
 ### Тестирование
 ```bash
 go test -cover ./...
+```
+---
+## Скриншоты
+<div align="center">
+
+### Результат подгрузки незавершеннх процессов
+
+
+</div>
