@@ -33,10 +33,11 @@
 
 ----
 ## Запуск
+## Запуск
 ```bash
-make build
+cp .env.example .env
 
-./bin/status-links
+docker compose up --build 
 ```
 ---
 ### Примеры использования
@@ -67,6 +68,11 @@ curl http://localhost:8080/api/loadUnfinishedWork --output result.pdf
 ### Тестирование
 ```bash
 make test
+```
+
+## Сетевые логи
+```bash
+docker logs -f test-task-caddy-1
 ```
 ---
 ## Скриншоты
