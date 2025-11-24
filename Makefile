@@ -1,4 +1,3 @@
-
 BINARY_NAME=status-links
 CMD_PATH=./cmd/httpAppUrl
 BUILD_DIR=./bin
