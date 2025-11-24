@@ -33,7 +33,6 @@
 
 ----
 ## Запуск
-## Запуск
 ```bash
 cp .env.example .env
 
